@@ -1,0 +1,29 @@
+/* load the default Redmine stylesheet */
+
+@import url(../../../stylesheets/application.css);
+
+/* add a logo in the header */
+
+#header {
+    background: #980000 url(../images/susdev-redmine.png) no-repeat 2px;
+    padding-left: 120px;
+}
+
+#top-menu {
+    background: #131313;
+}
+
+a, a:link, a:visited {
+    color: #3e2121;
+}
+
+#main-menu li a.new-object, a:hover {
+    background-color: #555555;
+}
+
+/* move the project menu to the right 
+#main-menu {
+    left: auto;
+    right: 0px;
+}
+*/
