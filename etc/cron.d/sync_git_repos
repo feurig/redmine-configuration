@@ -1,1 +1,1 @@
-*/2 * * * * www-data /var/www/bin/update_repos.py
+*/2 * * * * www-data /var/www/bin/update-repos.py
