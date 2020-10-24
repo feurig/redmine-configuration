@@ -1,8 +1,14 @@
 #!/usr/bin/python
-from github import Github
-import json
+"""-------------------------------------------------------------------------clone-repos.py
+Make mirror copies of repos from github and bitbucket.
+Author: D. Delmar Davis <don@suspectdevices.com>
+Copyleft: (c) 2020 D. Delmar Davis <don@suspectdevices.com>
+Liscense: mit
+"""
+#from github import Github
+#import json
 import subprocess
-import urllib2
+#import urllib2
 
 username = "feurig"
 repodir = "/var/www/git"

@@ -1,4 +1,10 @@
 #!/usr/bin/python
+"""------------------------------------------------------------------------update-repos.py
+update mirror copies of repos from github and bitbucket.
+Author: D. Delmar Davis <don@suspectdevices.com>
+Copyleft: (c) 2020 D. Delmar Davis <don@suspectdevices.com>
+Liscense: mit
+"""
 from github import Github
 import subprocess
 username = "feurig"
@@ -22,5 +28,4 @@ for repo in repos:
     d=repodir+repo.split('/')[1]+".git"
     print "updating :",d
     subprocess.call(["/usr/bin/git", "fetch", "-q", "--all", "-p"], cwd=d)
-
 
