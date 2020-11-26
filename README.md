@@ -1,5 +1,7 @@
 # Redmine Server.
-![](usr/share/redmine/public/themes/susdev/images/sd_logo_sm.png)
+[https://github.com/feurig/redmine-configuration/blob/main/README.md](https://github.com/feurig/redmine-configuration/blob/main/README.md)
+
+![](https://github.com/feurig/redmine-configuration/blob/main/usr/share/redmine/public/themes/susdev/images/sd_logo_sm.png?raw=true)
 
 Suspect Devices maintains a git backup server for repositories hosted by github and bitbucket. This site uses Redmine to track issues and work. 
 
@@ -159,7 +161,7 @@ Redirect permanent "/" "https://git.suspectdevices.com/"
 apache2ctl configtest
 apache2ctl restart
 ```
-* [etc/apache2/sites-enabled/redmine.conf](etc/apache2/sites-enabled/redmine.conf)
+* [etc/apache2/sites-enabled/redmine.conf](https://github.com/feurig/redmine-configuration/blob/main/etc/apache2/sites-enabled/redmine.conf)
 
 
 ### Creating scripts clone and update the repositories
@@ -175,8 +177,8 @@ python
 The scripts I arrived at work but could certainly be refined. 
 I should probably just use a list for each repo regardless of the site and maintain that as part of this repo. Bitbucket does not allow you to list all of the private repos so I just went with a simple list.
 
-* [clone-repos.py](var/www/bin/clone-repos.py)
-* [update-repos.py](var/www/bin/update-repos.py)
+* [clone-repos.py](https://github.com/feurig/redmine-configuration/blob/main/var/www/bin/clone-repos.py)
+* [update-repos.py](https://github.com/feurig/redmine-configuration/blob/main/var/www/bin/update-repos.py)
 
 ### Set up email 
 Debians postfix installer makes it very easy to install postfix configured as a null client. When installing select Satelite and provide your domain name and relay host.
@@ -190,3 +192,4 @@ apt-get install postfix
 * Remove repo browsing from anonymous / non project users
 * Activate themes
 * USE IT.
+
