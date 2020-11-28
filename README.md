@@ -12,7 +12,7 @@ Suspect Devices maintains a git backup server for repositories hosted by github 
 * Document server setup.
 
 # Server configuration
-This server is running on a Ubuntu 18.04 container because redmine uses a version of Ruby that is behind the new LTS (20.04) we will revisit this next spring.
+This server is running on a Ubuntu 18.04 container because redmine requires a version of Ruby that is behind the new LTS (20.04). We will revisit this next spring.
 
 ```
 apt-get install postgresql
@@ -84,6 +84,7 @@ ls
 nano ../stylesheets/application.css 
 chown -R www-data:www-data ../../susdev
 ```
+[usr/share/redmine/public/themes/susdev/stylesheets/application.css](https://github.com/feurig/redmine-configuration/blob/main/usr/share/redmine/public/themes/susdev/stylesheets/application.css)
 ### Adding SSL to the site 
 
 ```
