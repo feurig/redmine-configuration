@@ -23,7 +23,8 @@ githubrepos=['feurig/arduino-core-105','feurig/Arduino_STM32_MIDI_project',
 
 bitbucketrepos=['feurig/ems-light','feurig/musicbox','feurig/straight-from-hell.com',
        'feurig/trashterm','feurig/missinglink-hardware','feurig/bnc-proprietary',
-       'feurig/ems-firmware','feurig/ems-golang','feurig/ems-framework','joedumoulin/sesh']
+       'feurig/ems-firmware','feurig/ems-golang','feurig/ems-framework',
+       'joedumoulin/sesh','suspectdevicesadmin/ansible']
 
 
 for repo in githubrepos:

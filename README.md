@@ -190,7 +190,7 @@ apt-get install postfix
 ## Things that are done in redmine.
 * Set passwords and add admin users.
 * Add projects and add repositories to them. 
-* Remove repo browsing from anonymous / non project users
-* Activate themes
-* USE IT.
+* Remove repo browsing from anonymous / non project users.
+* Activate theme.
+* USE IT!
 
